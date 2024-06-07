@@ -13,6 +13,16 @@ This repository implements a dynamic indexing (RangePQ+) for range filtered appr
 
 
 ## Compiling
+To compile the C++ file, you can run 
+```
+./build.sh
+```
 
+ After that, you can directly use our RangePQ index in Python by
+
+ ```python
+import segr
+
+```
 
 ## Experiments details
