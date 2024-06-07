@@ -1,4 +1,6 @@
-<img src="RangePQ2.png" width="300">
+<p align="center">
+  <img src="RangePQ3.png" width="320">
+</p>
 
 # Efficient Dynamic Indexing for Range Filtered Approximate Nearest Neighbor Search
 
