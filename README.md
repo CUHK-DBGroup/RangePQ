@@ -26,7 +26,7 @@ import segr
 ```
 
 ## Experiments details
-For our RangePQ index, we set $L_base$ = 10000 to test on the Sift and WIT, and $L_base$ = 30000 to test on the Gist.
+For our RangePQ index, we set $L_{base}$ = 10000 to test on the Sift and WIT, and $L_{base}$ = 30000 to test on the Gist.
 
 For Rii, we set $L$ = 1000 to test on the Sift and WIT, and $L$ = 3000 to test on the Gist.
 
