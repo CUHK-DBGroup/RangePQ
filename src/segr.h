@@ -457,7 +457,6 @@ std::pair<std::vector<size_t>, std::vector<float> > SegrCpp::QuerySegRange(const
     // auto d1 = std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1);
     // auto d2 = std::chrono::duration_cast<std::chrono::nanoseconds>(t3 - t2);
 
-    // 输出执行时间
     // std::cout << d1.count() << " " << d2.count()<<" "<<std::endl;
     return res;
 }
