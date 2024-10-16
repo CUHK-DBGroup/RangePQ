@@ -132,7 +132,7 @@ public:
 
         while (std::getline(file, line)) {
             if (line.find("VmRSS") != std::string::npos) {
-                std::cout << "程序当前使用的内存为：" << line << std::endl;
+                std::cout << line << std::endl;
                 break;
             }
         }
@@ -248,7 +248,7 @@ void SegrCpp::Reconfigure(int nlist, int iter, int cz)
 
         while (std::getline(file, line)) {
             if (line.find("VmRSS") != std::string::npos) {
-                std::cout << "程序当前使用的内存为：" << line << std::endl;
+                std::cout << line << std::endl;
                 break;
             }
         }
@@ -261,7 +261,7 @@ void SegrCpp::Reconfigure(int nlist, int iter, int cz)
         std::string line1;
         while (std::getline(file1, line1)) {
             if (line1.find("VmRSS") != std::string::npos) {
-                std::cout << "程序当前使用的内存为：" << line1 << std::endl;
+                std::cout << line1 << std::endl;
                 break;
             }
         }
