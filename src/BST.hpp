@@ -51,7 +51,7 @@ private:
     }
 
 
-    WBTNode *rotate(WBTNode *k1, bool d) {  // d 表示将哪个儿子旋转到 x 的位置
+    WBTNode *rotate(WBTNode *k1, bool d) {
         WBTNode *k2 = k1->son[d];
         k1->son[d] = k2->son[!d];
         k2->son[!d] = k1;
